@@ -1,6 +1,5 @@
 from colorama import Fore
 from experta import *
-import sys
 
 welcome_message = """
 Hi! I am your car Diagnosis Expert system, I am here to help you find out what the issue with your vehicle is.\n
