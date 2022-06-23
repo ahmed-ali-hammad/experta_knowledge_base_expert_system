@@ -18,7 +18,6 @@ if __name__ == "__main__":
             print('\nNO VALID ANSWER SELECTED\n')
             continue
 
-        print(Fore.WHITE + "\nWould you like to diagnose other vechilcs?\n")
-        if input().strip().lower() == "no":
+        if input_yes_no('Would you like to diagnose other vechilcs?').strip().lower() == "no":
             print(Fore.YELLOW + '\n\nThank you for using our Car Diagnosis Expert System\n\n')
             exit()
